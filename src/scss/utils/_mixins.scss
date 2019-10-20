@@ -9,6 +9,11 @@
     @return $pixels / $context * 1rem;
 }
 
+//grid width
+@function colSize($col) {
+    @return $grid-width * $col + $gutter-width * ($col - 1);
+}
+
 //Example @include size(50%, 80%)
 @mixin size($width,$height: $width) {
     width: $width;

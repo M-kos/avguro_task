@@ -1,0 +1,50 @@
+.cotainer {
+    margin: 0 auto;
+    width: 90vw;
+    max-width: $container-max-width;
+    min-width: $container-min-width;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.col {
+}
+.col-1 {
+    width: colSize(1);
+}
+.col-2 {
+    width: colSize(2);
+}
+.col-3 {
+    width: colSize(3);
+}
+.col-4 {
+    width: colSize(4);
+}
+.col-5 {
+    width: colSize(5);
+}
+.col-6 {
+    width: colSize(6);
+}
+.col-7 {
+    width: colSize(7);
+}
+.col-8 {
+    width: colSize(8);
+}
+.col-9 {
+    width: colSize(9);
+}
+.col-10 {
+    width: colSize(10);
+}
+.col-11 {
+    width: colSize(11);
+}
+.col-12 {
+    width: 100%;
+}
