@@ -1,0 +1,12 @@
+.create-account {
+    display: block;
+    background-color: $success-color;
+    border-radius: rem(5px);
+    width: rem(264px);
+    height: rem(55px);
+    color: $default-color;
+    font-size: rem(24px);
+    font-weight: bold;
+    margin: auto;
+    cursor: pointer;
+}

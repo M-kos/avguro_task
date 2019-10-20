@@ -1,0 +1,20 @@
+.navigation-points{
+    position: relative;
+    width: 12px;
+    top: -50%;
+    left: calc(100% - 40px);
+    margin-right: 28px;
+
+    .point{
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        border: 1px solid $neutral-primary;
+        background-color: $default-color;
+        margin: 17px 0;
+    }
+    .point.checked{
+        border: 1px solid $default-color;
+        background-color: $neutral-primary;
+    }
+}

@@ -1,0 +1,17 @@
+.logo{
+    display: inline-block;
+    position: absolute;
+    top: rem(25px);
+    left: rem(161px);
+
+    .img{
+        display: inline-block;
+        svg {
+            fill: $default-color;
+        }
+    }
+    p{
+        display: inline-block;
+        font-weight: bold;
+    }
+}

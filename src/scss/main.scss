@@ -29,4 +29,26 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+h1, h2, h3, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: rem(50px);
+    font-weight: bold;
+}
+
+h2 {
+    font-size: rem(35px);
+    font-weight: bold;
+}
+
+h3 {
+    font-size: rem(20px);
+}
+
 // Modules
+@import "./modules/block-first/block-first.scss";
+@import "./modules/btn-create-account.scss";
+@import "./modules/navigation-points.scss";
+@import "./modules/logo.scss";

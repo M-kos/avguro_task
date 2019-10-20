@@ -1,0 +1,94 @@
+.block-first {
+    background-image: url("../img/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 843px;
+
+    .promotion-date {
+        font-size: rem(12px);
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding-top: rem(35px);
+    }
+    
+    .fair-price {
+        font-size: rem(80px);
+        line-height: rem(80px);
+        padding-top: rem(103px);
+        letter-spacing: rem(5px);
+    }
+
+    .form-check{
+        margin-top: rem(62px);
+
+        .check-domain {
+        background-color: $default-color;
+        width: colSize(8);
+        height: rem(80px);
+        margin: auto;
+        border-radius: rem(7.5px);
+        display: flex;
+        justify-content: space-between;
+        padding: rem(14px) rem(15px);
+        position: relative;
+        z-index: 2;
+
+        .input-domain{
+            font-size: rem(24px);
+            color: $neutral-primary;
+            padding-left: rem(21px);
+
+            &::placeholder{
+                font-size: inherit;
+                color: inherit;
+            }
+        }
+
+        .check{
+            background-color: $neutral-secondary;
+            border-radius: rem(7.5px);
+            width: rem(156px);
+            color: $default-color;
+            font-size: rem(22px);
+            padding: 0 rem(27px);
+        }
+        }
+        .under-form{
+            position: relative;
+            bottom: rem(40px);
+            width: colSize(8);
+            height: rem(86.5px);
+            margin: auto;
+            background-color: $neutral-primary;
+            opacity: 0.9;
+            border-radius: rem(7.5px);
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+
+            .domain-free{
+                height: rem(40px);
+                text-align: left;
+                padding-top: 5px;
+                padding-right: 5px;
+            }
+
+            .register{
+                display: block;
+                cursor: pointer;
+                height: rem(40px);
+                text-decoration: underline;
+                color: $success-color;
+                padding-top: 5px;
+                padding-right: 5px;
+            }
+        }
+    }
+    .down-btn{
+        margin-top: rem(138px);
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+}
