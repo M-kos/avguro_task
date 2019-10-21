@@ -1,9 +1,8 @@
 .navigation-points{
-    position: relative;
+    position: absolute;
     width: 12px;
-    top: -50%;
+    top: calc(50% - 52px);
     left: calc(100% - 40px);
-    margin-right: 28px;
 
     .point{
         height: 12px;

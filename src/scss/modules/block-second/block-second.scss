@@ -1,0 +1,83 @@
+.block-second {
+    min-height: 844px;
+    color: $neutral-primary;
+    position: relative;
+
+    .logo{
+        .img{
+            svg {
+                fill: $logo-color;
+            }
+        }
+    }
+
+    .domains-info {
+        padding-top: rem(105px);
+        padding-bottom: rem(47px);
+    }
+
+    .set-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-decoration: none;
+        color: $neutral-primary;
+        margin-top: 35px;
+        margin-bottom: 25px;
+
+        .section-title{
+            padding-top: rem(22px);
+        }
+
+        div {
+            text-align: center;
+        }
+    }
+
+    .section-description {
+        display: none;
+        background-color: $light-color;
+        border: 1px solid $border-base;
+        border-radius: rem(4.5px);
+        position: relative;
+        padding: 25px 40px 14px 43px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: -1px;
+            z-index: 99;
+            background: $light-color;
+            width: 20px;
+            height: 20px;
+            border: 1px solid $border-base;
+            border-width: 1px 0 0 1px;
+            transform-origin: 0 0;
+            transform: rotate(45deg) translate(-10px, -10px);
+        }
+
+        &[data-name="business-card-site"]::before,
+        &[data-name="cloud-storage"]::before {
+            left: 12%;
+        }
+
+        &[data-name="dns-support"]::before,
+        &[data-name="free-ssl"]::before {
+            left: 37%;
+        }
+
+        &[data-name="domen-certificate"]::before,
+        &[data-name="dnssec"]::before {
+            left: 62%;
+        }
+
+        &[data-name="autorenewal"]::before,
+        &[data-name="redirection"]::before {
+            left: 87%;
+        }
+    }
+
+    .create-account {
+        margin: rem(20px) auto;
+    }
+}

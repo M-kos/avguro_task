@@ -2,7 +2,8 @@
     background-image: url("../img/background1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 843px;
+    min-height: 843px;
+    position: relative;
 
     .promotion-date {
         font-size: rem(12px);
